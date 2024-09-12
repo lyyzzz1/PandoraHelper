@@ -1,11 +1,11 @@
 {
   "security": {
-    "admin_password": ""
+    "admin_password": "lyy1107."
   },
   "http": {
     "host": "0.0.0.0",
     "port": 9000,
-    "title": "Pandora",
+    "title": "b308 share",
     "rate": 1000
   },
   "database": {
@@ -20,7 +20,7 @@
     "domain": {
       "chat": "https://chat.oaifree.com",
       "token": "https://token.oaifree.com",
-      "index": "https://new.oaifree.com",
+      "index": "https://new.b308.fun",
       "claude": "https://demo.fuclaude.com"
     }
   },

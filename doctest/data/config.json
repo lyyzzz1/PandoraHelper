@@ -1,0 +1,37 @@
+{
+    "security": {
+      "admin_password": "lyy1107."
+    },
+    "http": {
+      "host": "0.0.0.0",
+      "port": 9000,
+      "title": "b308 share",
+      "rate": 1000
+    },
+    "database": {
+      "driver": "sqlite",
+      "dsn": "./data/data.db"
+    },
+    "share": {
+      "random": true,
+      "custom": true
+    },
+    "pandora": {
+      "domain": {
+        "chat": "https://chat.oaifree.com",
+        "token": "https://token.oaifree.com",
+        "index": "https://new.b308.fun",
+        "claude": "https://demo.fuclaude.com"
+      }
+    },
+    "log": {
+      "level": "info",
+      "encoding": "console",
+      "output": "console",
+      "log_file_name": "./logs/server.log",
+      "max_backups": 30,
+      "max_age": 7,
+      "max_size": 1024,
+      "compress": true
+    }
+  }

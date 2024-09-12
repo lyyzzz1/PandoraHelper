@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  pandora-next:
+    image: test
+    container_name: test
+    network_mode: bridge
+    restart: always
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./data:/app/data
